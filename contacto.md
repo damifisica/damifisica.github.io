@@ -4,4 +4,4 @@ title: Contacto
 permalink: /contacto/
 ---
 
-Escribime por WhatsApp o mirá mis videos en YouTube.
+Escribeme por correo.
