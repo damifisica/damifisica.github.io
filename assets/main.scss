@@ -8,9 +8,48 @@ body {
 }
 
 .site-header {
-  border-top: 6px solid #2a5db0;
+  border: none;
+  min-height: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.site-title, .site-title:visited {
+.header-center {
+  padding: 24px 0 16px;
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.site-logo {
+  height: 56px;
+  width: auto;
+}
+
+.site-name {
+  font-size: 28px;
+  font-weight: bold;
   color: #2a5db0;
+}
+
+.site-nav-bar {
+  background: #1f3b6e;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.site-nav-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-nav-bar a:hover {
+  text-decoration: underline;
 }
